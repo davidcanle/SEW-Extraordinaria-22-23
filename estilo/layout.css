@@ -1,0 +1,52 @@
+/***********************
+ David Canle Roza - UO258403
+Descripción del layout
+************************/
+/* specificity = 001*/
+nav {
+    grid-area: nav;
+}
+/* specificity = 001*/
+header {
+    grid-area: header;
+}
+/* specificity = 001*/
+main {
+    grid-area: main;
+}
+/* specificity = 001*/
+footer {
+    grid-area: footer;
+}
+
+/* specificity = 001*/
+body {
+    display: grid;
+    grid-template-areas:
+        'header header header'
+        'nav nav nav'
+        'main main main'
+        'main main main'
+        'footer footer footer';
+    gap: 1em;  
+    padding: 1em;
+}
+/* specificity = 002*/
+video,img {
+    width: 100%;
+    height: auto;
+}
+/* specificity = 001*/
+audio{
+    width: 100%;
+}
+/* specificity = 005*/
+header,
+main,
+section,
+nav,
+footer {
+    
+    padding: 1.5em 1.5em;
+   
+}
