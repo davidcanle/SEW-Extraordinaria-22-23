@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rutas SYSTEM "rutas.dtd">
+<rutas>
+    <ruta nombre="Ruta del Valle de Ponga">
+        <tipo>Senderismo</tipo>
+        <medioDeTransporte>A pie</medioDeTransporte>
+        <fechaInicio>11-12-2018</fechaInicio>
+        <horaInicio>10:00</horaInicio>
+        <duracion>3 horas</duracion>
+        <agencia>Sin agencia</agencia>
+        <descripcion>Ruta homologada con el epígrafe PR.AS-213 que comienza en San Juan de Beleño y
+            que discurre por frondosos bosques en gran parte de su recorrido</descripcion>
+        <lugarDeInicio longitud="43.190183" latitud="-5.164115" altitud="640">San Juan de Beleño</lugarDeInicio>
+        <direccionInicio>AS-261, 33557 S. Juan de Beleño, Asturias</direccionInicio>
+        <referencias>
+            <referencia>
+                https://es.wikiloc.com/rutas-senderismo/ruta-del-valle-de-ponga-pr-as-213-san-juan-de-beleno-parque-natural-de-ponga-31300737</referencia>
+            <referencia>
+                https://www.turismoasturias.es/descubre/naturaleza/rutas/senderismo/valle-de-ponga</referencia>
+            <referencia>
+                https://www.elcomercio.es/rutas-senderismo-por-asturias/ruta-valle-parque-natural-ponga-20211014114841-nt.html</referencia>
+        </referencias>
+        <recomendacion>8.7</recomendacion>
+        <hitos>
+        <hito nombre="Puente de piedra">
+            <descripcion>Puente de piedra que permite pasar por encima de un arroyo</descripcion>
+            <coordenadas longitud="-5.1675770" latitud="43.186169" altitud="528"></coordenadas>
+            <distancia>524</distancia>
+            <fotografias>
+                <fotografia>puente_de_piedra_1.jpg</fotografia>
+            </fotografias>
+            <videos></videos>
+        </hito>
+        <hito nombre="Yano">
+            <descripcion>Llegada al pueblo de Yano</descripcion>
+            <coordenadas longitud="-5.1778860" latitud="43.174847" altitud="611"></coordenadas>
+            <distancia>1000</distancia>
+            <fotografias>
+                <fotografia>yano_1.jpg</fotografia>
+                <fotografia>yano_2.jpg</fotografia>
+            </fotografias>
+            <videos></videos>
+        </hito>
+        <hito nombre="Mesas de picnic">
+            <descripcion>Mesas de picnic a la entrada del pueblo de Sobrefoz</descripcion>
+            <coordenadas longitud="-5.1772960" latitud="43.169780" altitud="618"></coordenadas>
+            <distancia>568</distancia>
+            <fotografias>
+                <fotografia>mesas_de_picnic_1.jpg</fotografia>
+                <fotografia>mesas_de_picnic_2.jpg</fotografia>
+                <fotografia>mesas_de_picnic_3.jpg</fotografia>
+            </fotografias>
+            <videos></videos>
+        </hito>
+        </hitos>
+    </ruta>
+    <ruta nombre="Ruta del Pico Pierzu">
+        <tipo>Senderismo</tipo>
+        <medioDeTransporte>A pie</medioDeTransporte>
+        <fechaInicio>13-07-2020</fechaInicio>
+        <horaInicio>11:00</horaInicio>
+        <duracion>2 horas</duracion>
+        <agencia>Sin agencia</agencia>
+        <descripcion> Subida al Pico Pierzu y regreso por el mismo sendero: Collado Llomena-Cantera- Majada de Cerboes-Pico Pierzu y regreso</descripcion>
+        <lugarDeInicio longitud="-5.1377850" latitud="43.201593" altitud="1001">Panel en Collada Llomena</lugarDeInicio>
+        <direccionInicio>Peloño 33557, 33557, Cangas de Onís, Asturias</direccionInicio>
+        <referencias>
+            <referencia>
+              https://es.wikiloc.com/rutas-senderismo/pico-pierzu-1552-m-desde-collada-llomena-2020-julio-52688076</referencia>
+            <referencia>
+                https://www.turismoasturias.es/descubre/naturaleza/rutas/senderismo/ruta-del-pico-pierzu</referencia>
+            <referencia>
+                https://asturias.com/el-picu-pierzu/</referencia>
+        </referencias>
+        <recomendacion>8</recomendacion>
+        <hitos>
+        <hito nombre="Fuente">
+            <descripcion>Fuente de agua natural que se encuentra por la ruta</descripcion>
+            <coordenadas longitud="-5.1376290" latitud="43.207024" altitud="1040"></coordenadas>
+            <distancia>700</distancia>
+            <fotografias>
+                <fotografia>fuente_1.jpg</fotografia>
+            </fotografias>
+            <videos></videos>
+        </hito>
+        <hito nombre="Cantu d'Aranga. Valle y Lago d'Aranga">
+            <descripcion>Valle y Lago que se encuentran realizando la ruta</descripcion>
+            <coordenadas longitud="-5.1550390" latitud="43.215685" altitud="1244"></coordenadas>
+            <distancia>1000</distancia>
+            <fotografias>
+                <fotografia>valle_1.jpg</fotografia>
+                <fotografia>lago_1.jpg</fotografia>
+                <fotografia>valle_2.jpg</fotografia>
+            </fotografias>
+            <videos></videos>
+        </hito>
+        <hito nombre="Majada de Cerboes (1258 mts)">
+            <descripcion>La majada de Cerboes está situada a unos 1283 m de altitud, en la base del pico Pienzu y cerca del lago Aranga, en el concejo de Ponga</descripcion>
+            <coordenadas longitud="-5.1551590" latitud="43.221021" altitud="1283"></coordenadas>
+            <distancia>577</distancia>
+            <fotografias>
+                <fotografia>majada_de_cerboes.jpg</fotografia>
+            </fotografias>
+            <videos>
+                <video>majada_de_cerboes.mp4</video>
+            </videos>
+        </hito>
+        </hitos>
+    </ruta>
+    <ruta nombre="Ruta de Les Bedules - Bosque de Peloño">
+        <tipo>Senderismo</tipo>
+        <medioDeTransporte>A pie</medioDeTransporte>
+        <fechaInicio>11-12-2018</fechaInicio>
+        <horaInicio>16:00</horaInicio>
+        <duracion>3 horas</duracion>
+        <agencia>Sin agencia</agencia>
+        <descripcion></descripcion>
+        <lugarDeInicio longitud="-5.1412570" latitud="43.186010" altitud="1120">Les Bedules</lugarDeInicio>
+        <direccionInicio>Les Bedules, 33557, Asturias</direccionInicio>
+        <referencias>
+            <referencia>
+                https://es.wikiloc.com/rutas-senderismo/asturias-les-bedules-bosque-de-pelono-les-bedules-7335381</referencia>
+            <referencia>
+                https://www.picosdeeuropa.com/que-hacer/rutas-de-senderismo/les-bedules-bosque-de-pelono/</referencia>
+            <referencia>
+                https://www.turismoasturias.es/descubre/naturaleza/rutas/senderismo/bosque-de-pelono</referencia>
+        </referencias>
+        <recomendacion>8.7</recomendacion>
+        <hitos>
+        <hito nombre="Collada Granceno">
+            <descripcion>Zona de senderismo</descripcion>
+            <coordenadas longitud="-5.1242510" latitud="43.156500" altitud="1226"></coordenadas>
+            <distancia>1700</distancia>
+            <fotografias>
+                <fotografia>collada_granceno_1.jpg</fotografia>
+            </fotografias>
+            <videos></videos>
+        </hito>
+        <hito nombre="Roblón de Bustiello">
+            <descripcion>Un ejemplar de roble albar de enormes dimensiones que es todo un tesoro natural digno de conoce</descripcion>
+            <coordenadas longitud="-5.1302220" latitud="43.151440" altitud="1247"></coordenadas>
+            <distancia>1400</distancia>
+            <fotografias>
+                <fotografia>roblon_de_bustiello_1.jpg</fotografia>
+                <fotografia>roblon_de_bustiello_2.jpg</fotografia>
+            </fotografias>
+            <videos></videos>
+        </hito>
+        <hito nombre="Les Bedules">
+            <descripcion></descripcion>
+            <coordenadas longitud="-5.1412570" latitud="43.186010" altitud="1120"></coordenadas>
+            <distancia>6000</distancia>
+            <fotografias>
+                <fotografia>les_bedules_1.jpg</fotografia>
+            </fotografias>
+            <videos></videos>
+        </hito>
+        </hitos>
+    </ruta>
+</rutas>
