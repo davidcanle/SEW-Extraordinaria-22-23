@@ -26,7 +26,10 @@
 
 </head>
 
-<body onload="meteorologia.cargarDatosDeMeteorologia();">
+<body onload="{
+   meteorologia.cargarDatosDeMeteorologia();
+   mapa.getMapFromGoogleMaps();
+}">
    <header>
       <h1>Concejo de Ponga</h1>
    </header>
@@ -63,6 +66,9 @@
       </section>
       <section>
          <h2> Tiempo en Ponga </h2>
+      </section>
+      <section>
+         <h2> Mapa de Ponga </h2>
       </section>
    </main>
    <footer>
