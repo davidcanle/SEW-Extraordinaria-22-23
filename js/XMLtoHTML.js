@@ -17,7 +17,7 @@ class XMLtoHTML {
                     var horaInicio = ruta.find('horaInicio').text();
                     var duracion = ruta.find('duracion').text();
                     var agencia = ruta.find('agencia').text();
-                    var descripcion = ruta.find('descripcion').text();
+                    var descripcion =  $(this).children('descripcion').first().text();
                     var personasAdecuadas = ruta.find('personasAdecuadas').text();
                     var lugarDeInicio = ruta.find('lugarDeInicio').text();
                     var direccionInicio = ruta.find('direccionInicio').text();
