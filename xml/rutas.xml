@@ -12,6 +12,7 @@
             que discurre por frondosos bosques en gran parte de su recorrido</descripcion>
         <lugarDeInicio longitud="43.190183" latitud="-5.164115" altitud="640">San Juan de Beleño</lugarDeInicio>
         <direccionInicio>AS-261, 33557 S. Juan de Beleño, Asturias</direccionInicio>
+        <personasAdecuadas>Se puede ir con niños</personasAdecuadas>
         <referencias>
             <referencia>
                 https://es.wikiloc.com/rutas-senderismo/ruta-del-valle-de-ponga-pr-as-213-san-juan-de-beleno-parque-natural-de-ponga-31300737</referencia>
@@ -25,7 +26,7 @@
         <hito nombre="Puente de piedra">
             <descripcion>Puente de piedra que permite pasar por encima de un arroyo</descripcion>
             <coordenadas longitud="-5.1675770" latitud="43.186169" altitud="528"></coordenadas>
-            <distancia>524</distancia>
+            <distancia unidades="metros">524</distancia>
             <fotografias>
                 <fotografia>puente_de_piedra_1.jpg</fotografia>
             </fotografias>
@@ -34,7 +35,7 @@
         <hito nombre="Yano">
             <descripcion>Llegada al pueblo de Yano</descripcion>
             <coordenadas longitud="-5.1778860" latitud="43.174847" altitud="611"></coordenadas>
-            <distancia>1000</distancia>
+            <distancia unidades="metros">1000</distancia>
             <fotografias>
                 <fotografia>yano_1.jpg</fotografia>
                 <fotografia>yano_2.jpg</fotografia>
@@ -44,7 +45,7 @@
         <hito nombre="Mesas de picnic">
             <descripcion>Mesas de picnic a la entrada del pueblo de Sobrefoz</descripcion>
             <coordenadas longitud="-5.1772960" latitud="43.169780" altitud="618"></coordenadas>
-            <distancia>568</distancia>
+            <distancia unidades="metros">568</distancia>
             <fotografias>
                 <fotografia>mesas_de_picnic_1.jpg</fotografia>
                 <fotografia>mesas_de_picnic_2.jpg</fotografia>
@@ -53,6 +54,8 @@
             <videos></videos>
         </hito>
         </hitos>
+        <planimetria>RutaValleDePonga.kml</planimetria>
+        <altimetria>RutaValleDePonga.svg</altimetria>
     </ruta>
     <ruta nombre="Ruta del Pico Pierzu">
         <tipo>Senderismo</tipo>
@@ -64,6 +67,7 @@
         <descripcion> Subida al Pico Pierzu y regreso por el mismo sendero: Collado Llomena-Cantera- Majada de Cerboes-Pico Pierzu y regreso</descripcion>
         <lugarDeInicio longitud="-5.1377850" latitud="43.201593" altitud="1001">Panel en Collada Llomena</lugarDeInicio>
         <direccionInicio>Peloño 33557, 33557, Cangas de Onís, Asturias</direccionInicio>
+        <personasAdecuadas>Personas que suelen hacer senderismo</personasAdecuadas>
         <referencias>
             <referencia>
               https://es.wikiloc.com/rutas-senderismo/pico-pierzu-1552-m-desde-collada-llomena-2020-julio-52688076</referencia>
@@ -77,7 +81,7 @@
         <hito nombre="Fuente">
             <descripcion>Fuente de agua natural que se encuentra por la ruta</descripcion>
             <coordenadas longitud="-5.1376290" latitud="43.207024" altitud="1040"></coordenadas>
-            <distancia>700</distancia>
+            <distancia unidades="metros">700</distancia>
             <fotografias>
                 <fotografia>fuente_1.jpg</fotografia>
             </fotografias>
@@ -86,7 +90,7 @@
         <hito nombre="Cantu d'Aranga. Valle y Lago d'Aranga">
             <descripcion>Valle y Lago que se encuentran realizando la ruta</descripcion>
             <coordenadas longitud="-5.1550390" latitud="43.215685" altitud="1244"></coordenadas>
-            <distancia>1000</distancia>
+            <distancia unidades="metros">1000</distancia>
             <fotografias>
                 <fotografia>valle_1.jpg</fotografia>
                 <fotografia>lago_1.jpg</fotografia>
@@ -97,7 +101,7 @@
         <hito nombre="Majada de Cerboes (1258 mts)">
             <descripcion>La majada de Cerboes está situada a unos 1283 m de altitud, en la base del pico Pienzu y cerca del lago Aranga, en el concejo de Ponga</descripcion>
             <coordenadas longitud="-5.1551590" latitud="43.221021" altitud="1283"></coordenadas>
-            <distancia>577</distancia>
+            <distancia unidades="metros">577</distancia>
             <fotografias>
                 <fotografia>majada_de_cerboes.jpg</fotografia>
             </fotografias>
@@ -106,6 +110,8 @@
             </videos>
         </hito>
         </hitos>
+        <planimetria>RutaPicoPierzu.kml</planimetria>
+        <altimetria>RutaPicoPierzu.svg</altimetria>
     </ruta>
     <ruta nombre="Ruta de Les Bedules - Bosque de Peloño">
         <tipo>Senderismo</tipo>
@@ -117,6 +123,7 @@
         <descripcion></descripcion>
         <lugarDeInicio longitud="-5.1412570" latitud="43.186010" altitud="1120">Les Bedules</lugarDeInicio>
         <direccionInicio>Les Bedules, 33557, Asturias</direccionInicio>
+        <personasAdecuadas>Personas con un buen nivel físico</personasAdecuadas>
         <referencias>
             <referencia>
                 https://es.wikiloc.com/rutas-senderismo/asturias-les-bedules-bosque-de-pelono-les-bedules-7335381</referencia>
@@ -130,7 +137,7 @@
         <hito nombre="Collada Granceno">
             <descripcion>Zona de senderismo</descripcion>
             <coordenadas longitud="-5.1242510" latitud="43.156500" altitud="1226"></coordenadas>
-            <distancia>1700</distancia>
+            <distancia unidades="metros">1700</distancia>
             <fotografias>
                 <fotografia>collada_granceno_1.jpg</fotografia>
             </fotografias>
@@ -139,7 +146,7 @@
         <hito nombre="Roblón de Bustiello">
             <descripcion>Un ejemplar de roble albar de enormes dimensiones que es todo un tesoro natural digno de conoce</descripcion>
             <coordenadas longitud="-5.1302220" latitud="43.151440" altitud="1247"></coordenadas>
-            <distancia>1400</distancia>
+            <distancia unidades="metros">1400</distancia>
             <fotografias>
                 <fotografia>roblon_de_bustiello_1.jpg</fotografia>
                 <fotografia>roblon_de_bustiello_2.jpg</fotografia>
@@ -149,12 +156,14 @@
         <hito nombre="Les Bedules">
             <descripcion></descripcion>
             <coordenadas longitud="-5.1412570" latitud="43.186010" altitud="1120"></coordenadas>
-            <distancia>6000</distancia>
+            <distancia unidades="metros">6000</distancia>
             <fotografias>
                 <fotografia>les_bedules_1.jpg</fotografia>
             </fotografias>
             <videos></videos>
         </hito>
         </hitos>
+        <planimetria>RutaLesBedules.kml</planimetria>
+        <altimetria>RutaLesBedules.svg</altimetria>
     </ruta>
 </rutas>
