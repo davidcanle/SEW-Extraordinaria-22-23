@@ -21,9 +21,9 @@ class XMLtoHTML {
                     var personasAdecuadas = ruta.find('personasAdecuadas').text();
                     var lugarDeInicio = ruta.find('lugarDeInicio').text();
                     var direccionInicio = ruta.find('direccionInicio').text();
-                    var longitud = lugarDeInicio.attr('longitud');
-                    var latitud = lugarDeInicio.attr('latitud');
-                    var altitud = lugarDeInicio.attr('altitud');
+                    var longitud = ruta.find('lugarDeInicio').attr('longitud');
+                    var latitud = ruta.find('lugarDeInicio').attr('latitud');
+                    var altitud = ruta.find('lugarDeInicio').attr('altitud');
 
                     var planimetria = ruta.find('planimetria').text();
                     var altimetria = ruta.find('altimetria').text();
@@ -31,7 +31,7 @@ class XMLtoHTML {
                     var referencias = '';
                     ruta.find('referencias > referencia').each(function() {
                         var r = $(this).text();
-                        r += '<li><a href="' + ra + '">' + r + '</a></li>';
+                        r += '<li><a href="' + r + '">' + r + '</a></li>';
                     });
                 
                     var hitosHTML = '';
@@ -54,10 +54,10 @@ class XMLtoHTML {
                         hitosHTML += '<p>Coordenadas: ' + longitudHito + ', ' + latitudHito + ', ' + altitudHito + '</p>'  
                         hito.find('fotografias > fotografia').each(function() {
                             var fotografia = $(this).text();
-                            hitosHTML += '<img src="multimedia/' + fotografia + '" alt= "Fotografía de ' + hitoNombre + '">';
+                            hitosHTML += '<img src="multimedia/' + fotografia + '" alt= "Fotografía de ' + nombreHito + '">';
                         
                         });
-                        hitosHTML.find('videos > video').each(function() {
+                        hito.find('videos > video').each(function() {
                             var video = $(this).text();
                             hitosHTML += '<video controls="" autoplay=""> <source src="multimedia/' + video + '" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;"> </video>';
                         
@@ -76,7 +76,7 @@ class XMLtoHTML {
                     $('main section:last ul:last').append('<li>Medio de transporte: ' + medioTransporte + '</li>')
                     $('main section:last ul:last').append('<li>Agencia: ' + agencia + '</li>')
                     $('main section:last ul:last').append('<li>Duración: ' + duracion + '</li>')<
-                    $('main section:last ul:last').append('<li>Lugar de inicio: ' + lugarInicio + 'Coordenadas: (' + longitud + ', ' + latitud + ', ' + altitud + ') </li>')
+                    $('main section:last ul:last').append('<li>Lugar de inicio: ' + lugarDeInicio + 'Coordenadas: (' + longitud + ', ' + latitud + ', ' + altitud + ') </li>')
                     $('main section:last ul:last').append('<li>Dirección de inicio: ' + direccionInicio + '</li>')
                     $('main section:last ul:last').append('<li>Personas adecuadas: ' + personasAdecuadas + '</li>')
                     $('main section:last').append('<h3>Referencias:</h3>')
