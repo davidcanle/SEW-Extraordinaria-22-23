@@ -9,7 +9,7 @@ class Mapa {
         var url = "https://maps.googleapis.com/maps/api/staticmap?";
         var parameters = "center=" + this.latitud + "," + this.longitud+ "&zoom=15&size=700x500&markers=color:red%7Clabel:S%7C" + this.latitud + "," + this.longitud+ "&sensor=false&key=AIzaSyAiA_e-dMWmR161LLbpMMNcLsBKkXeYLuo"; 
         this.mapaEstatico = url + parameters;
-        ubicacion.innerHTML = "<img src='"+this.imagenMapa+"' alt='Mapa estático del concejo de Ponga'> </img>";
+        seccion.innerHTML = "<img src='"+this.mapaEstatico+"' alt='Mapa estático del concejo de Ponga'> </img>";
     }
 }
 
