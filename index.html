@@ -17,9 +17,16 @@
    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  
+   <script src="js/Meteorologia.js"></script>
+   <script src="js/Carrusel.js"></script>
+
+
 </head>
 
-<body>
+<body onload="meteorologia.cargarDatosDeMeteorologia();">
    <header>
       <h1>Concejo de Ponga</h1>
    </header>
@@ -47,6 +54,15 @@
             La carretera nacional N-625 y las regionales AS-261 y AS-339, son los principales accesos rodados al
             concejo.
          </p>
+      </section>
+      <section>
+         <h2> Carrusel de Fotos </h2>
+         <img src="multimedia/fuente_1.jpg" alt="Paisaje del Concejo de Ponga" />
+         <button type="button" onclick="carrusel.anterior()" >Anterior</button>
+         <button type="button" onclick="carrusel.siguiente()">Siguiente</button>
+      </section>
+      <section>
+         <h2> Tiempo en Ponga </h2>
       </section>
    </main>
    <footer>
