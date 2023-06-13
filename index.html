@@ -23,6 +23,7 @@
    <script src="js/Meteorologia.js"></script>
    <script src="js/Carrusel.js"></script>
    <script src="js/Mapa.js"></script>
+   <script src="js/FechayHora.js"></script>
 
 
 </head>
@@ -30,6 +31,7 @@
 <body onload="{
    meteorologia.cargarDatosDeMeteorologia();
    mapa.getMapFromGoogleMaps();
+   fechaYHora.ultimaModificación();
 }">
    <header>
       <h1>Concejo de Ponga</h1>
@@ -70,6 +72,12 @@
       </section>
       <section>
          <h2> Mapa de Ponga </h2>
+      </section>
+      <section>
+         <h2> Noticias en Ponga </h2>
+      </section>
+      <section>
+         <h2> Última modificación del sitio web </h2>
       </section>
    </main>
    <footer>
