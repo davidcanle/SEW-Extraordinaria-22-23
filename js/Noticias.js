@@ -1,6 +1,6 @@
 class Noticias {
     constructor() {
-        this.url = "http://newsapi.org/v2/everything?q=Ayuntamiento \"Ponga\" Asturias&language=es&pageSize=5&apiKey=c0073fe8f4dd47c99c093e925bdf8b04";
+        this.url = "https://newsapi.org/v2/everything?q=Ayuntamiento \"Ponga\" Asturias&language=es&pageSize=5&apiKey=c0073fe8f4dd47c99c093e925bdf8b04";
     }
 
     mostrarNoticias(){
