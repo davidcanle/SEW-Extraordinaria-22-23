@@ -11,7 +11,7 @@ class XMLtoHTML {
                     var ruta = $(this);
                     var nombre = ruta.attr('nombre');
                     var tipo = ruta.find('tipo').text();
-                    var medioTransporte = ruta.find('medioTransporte').text();
+                    var medioTransporte = ruta.find('medioDeTransporte').text();
                     var recomendacion = ruta.find('recomendacion').text();
                     var fechaInicio = ruta.find('fechaInicio').text();
                     var horaInicio = ruta.find('horaInicio').text();
@@ -76,7 +76,7 @@ class XMLtoHTML {
                     $('main section:last ul:last').append('<li>Medio de transporte: ' + medioTransporte + '</li>')
                     $('main section:last ul:last').append('<li>Agencia: ' + agencia + '</li>')
                     $('main section:last ul:last').append('<li>Duración: ' + duracion + '</li>')<
-                    $('main section:last ul:last').append('<li>Lugar de inicio: ' + lugarDeInicio + 'Coordenadas: (' + longitud + ', ' + latitud + ', ' + altitud + ') </li>')
+                    $('main section:last ul:last').append('<li>Lugar de inicio: ' + lugarDeInicio + ' Coordenadas: (' + longitud + ', ' + latitud + ', ' + altitud + ') </li>')
                     $('main section:last ul:last').append('<li>Dirección de inicio: ' + direccionInicio + '</li>')
                     $('main section:last ul:last').append('<li>Personas adecuadas: ' + personasAdecuadas + '</li>')
                     $('main section:last').append('<h3>Referencias:</h3>')
