@@ -17,6 +17,11 @@
    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
 
+   
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+   <script src="js/Juego.js"></script>
+
 </head>
 
 <body>
@@ -36,6 +41,250 @@
    <main>
       <section>
          <h1>Juego tipo Test</h1>
+         <form onsubmit="event.preventDefault()">
+            <h2>Responda a todas las preguntas acerca del sitio web del concejo de Ponga</h2>
+            <fieldset>
+                <legend>¿Con qué provincia limita el concejo de Ponga?</legend>
+                <p>
+                    <input type="radio" id= "respuesta1_1" name="pregunta1" value="false">
+                    <label for="respuesta1_1">Galicia</label>
+                </p>
+                <p>
+                    <input type="radio" id= "respuesta1_2" name="pregunta1" value="false">
+                    <label for="respuesta1_2">País Vasco</label>
+                </p>
+                <p>
+                    <input type="radio" id= "respuesta1_3" name="pregunta1" value="false">
+                    <label for="respuesta1_3">Zamora</label>
+                </p>
+                <p>
+                    <input type="radio" id= "respuesta1_4" name="pregunta1" value="false">
+                    <label for="respuesta1_4">Cantabria</label>
+                </p>
+                <p>
+                    <input type="radio" id= "respuesta1_5" name="pregunta1" value="true">
+                    <label for="respuesta1_5">León</label>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>¿Cuántos habitantes tenía Ponga aproximadamente en 2020?</legend>
+                <p>
+                    <input type="radio" id= "respuesta2_1" name="pregunta2" value="true">
+                    <label for="respuesta2_1">628</label>
+                </p>
+                <p>
+                    <input type="radio" id= "respuesta2_2" name="pregunta2" value="false">
+                    <label for="respuesta2_2">357</label>
+                </p>
+                <p>
+                    <input type="radio" id= "respuesta2_3" name="pregunta2" value="false">
+                    <label for="respuesta2_3">428</label>
+                </p>
+                <p>
+                    <input type="radio" id= "respuesta2_4" name="pregunta2" value="false">
+                    <label for="respuesta2_4">457</label>
+                </p>
+                <p>
+                    <input type="radio" id= "respuesta2_5" name="pregunta2" value="false">
+                    <label for="respuesta2_5">1028</label>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>¿Qué árbol es el protagonista de la ruta del Roblón de Bustiello?</legend>
+                <p>
+                    <input type="radio" id= "respuesta3_1" name="pregunta3" value="false">
+                    <label for="respuesta3_1">El manzano</label>
+                </p>
+                <p>
+                    <input type="radio" id= "respuesta3_2" name="pregunta3" value="false">
+                    <label for="respuesta3_2">El limonero</label>
+                </p>
+                <p>
+                    <input type="radio" id= "respuesta3_3" name="pregunta3" value="true">
+                    <label for="respuesta3_3">El roble</label>
+                </p>
+                <p>
+                    <input type="radio" id= "respuesta3_4" name="pregunta3" value="false">
+                    <label for="respuesta3_4">El eucalipto</label>
+                </p>
+                <p>
+                    <input type="radio" id= "respuesta3_5" name="pregunta3" value="false">
+                    <label for="respuesta3_5">La haya</label>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>¿Cuánto se tarda en hacer la Ruta de Les Bedules al Bosque de Peloño?</legend>
+                <p>
+                    <input type="radio" id= "respuesta4_1" name="pregunta4" value="true">
+                    <label for="respuesta4_1">3 horas</label>
+                </p>
+                <p>
+                    <input type="radio" id= "respuesta4_2" name="pregunta4" value="false">
+                    <label for="respuesta4_2">2 horas</label>
+                </p>
+                <p>
+                    <input type="radio" id= "respuesta4_3" name="pregunta4" value="false">
+                    <label for="respuesta4_3">1 hora</label>
+                </p>
+                <p>
+                    <input type="radio" id= "respuesta4_4" name="pregunta4" value="false">
+                    <label for="respuesta4_4">4 hora</label>
+                </p>
+                <p>
+                    <input type="radio" id= "respuesta4_5" name="pregunta4" value="false">
+                    <label for="respuesta4_5">5 horas</label>
+                </p>
+            </fieldset>
+                
+              
+            <fieldset>
+                <legend>¿Cómo se llama al queso tradicional de Ponga?</legend>
+                <p>
+                    <input type="radio" id= "respuesta5_1" name="pregunta5" value="false">
+                    <label for="respuesta5_1">Queso de la Central Lechera Asturiana</label>
+                </p>
+                <p>
+                    <input type="radio" id= "respuesta5_2" name="pregunta5" value="false">
+                    <label for="respuesta5_2">Queso de Oscos</label>
+                </p>
+                <p>
+                    <input type="radio" id= "respuesta5_3" name="pregunta5" value="true">
+                    <label for="respuesta5_3">Queso de Los Beyos</label>
+                </p>
+                <p>
+                    <input type="radio" id= "respuesta5_4" name="pregunta5" value="false">
+                    <label for="respuesta5_4">Queso de La Peñona</label>
+                </p>
+                <p>
+                    <input type="radio" id= "respuesta5_5" name="pregunta5" value="false">
+                    <label for="respuesta5_5">Queso Cabrales</label>
+                </p>
+            </fieldset>
+            
+            <fieldset>
+                <legend>¿En cuál de estos lugares se puede disfrutar de las Jornadas de la Matanza durante el mes de Febrero?</legend>
+                <p>
+                    <input type="radio" id= "respuesta6_1" name="pregunta6" value="false">
+                    <label for="respuesta6_1">Casa Ricardo</label>
+                </p>
+                <p>
+                    <input type="radio" id= "respuesta6_2" name="pregunta6" value="true">
+                    <label for="respuesta6_2">La Casona de Mestas</label>
+                </p>
+                <p>
+                    <input type="radio" id= "respuesta6_3" name="pregunta6" value="false">
+                    <label for="respuesta6_3">El Quintanal</label>
+                </p>
+                <p>
+                    <input type="radio" id= "respuesta6_4" name="pregunta6" value="false">
+                    <label for="respuesta6_4">Restaurante La Huera</label>
+                </p>
+                <p>
+                    <input type="radio" id= "respuesta6_5" name="pregunta6" value="false">
+                    <label for="respuesta6_5">Restaurante Puente Vidosa</label>
+                </p>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>¿Dónde se celebra el Aguinaldo cada 1 de Enero?</legend>
+                <p>
+                    <input type="radio" id= "respuesta7_1" name="pregunta7" value="false">
+                    <label for="respuesta7_1">En Viegu</label>
+                </p>
+                <p>
+                    <input type="radio" id= "respuesta7_2" name="pregunta7" value="false">
+                    <label for="respuesta7_2">En Tarañes</label>
+                </p>
+                <p>
+                    <input type="radio" id= "respuesta7_3" name="pregunta7" value="true">
+                    <label for="respuesta7_3">En San Juan de Beleño</label>
+                </p>
+                <p>
+                    <input type="radio" id= "respuesta7_4" name="pregunta7" value="false">
+                    <label for="respuesta7_4">En Sobrefoz</label>
+                </p>
+                <p>
+                    <input type="radio" id= "respuesta7_5" name="pregunta7" value="false">
+                    <label for="respuesta7_5">En Carangas</label>
+                </p>
+            </fieldset>
+             
+            <fieldset>
+                <legend>¿Quién es el protagonista de la Fiesta del Aguinaldo de Beleño?</legend>
+                <p>
+                    <input type="radio" id= "respuesta8_1" name="pregunta8" value="true">
+                    <label for="respuesta8_1">El Guirria</label>
+                </p>
+                <p>
+                    <input type="radio" id= "respuesta8_2" name="pregunta8" value="false">
+                    <label for="respuesta8_2">El Trasgu</label>
+                </p>
+                <p>
+                    <input type="radio" id= "respuesta8_3" name="pregunta8" value="false">
+                    <label for="respuesta8_3">El Busgosu</label>
+                </p>
+                <p>
+                    <input type="radio" id= "respuesta8_4" name="pregunta8" value="false">
+                    <label for="respuesta8_4">El Nuberu</label>
+                </p>
+                <p>
+                    <input type="radio" id= "respuesta8_5" name="pregunta8" value="false">
+                    <label for="respuesta8_5">El Cuelebre</label>
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>¿Qué dos picos se encuentran en Ponga?</legend>
+                <p>
+                    <input type="radio" id= "respuesta9_1" name="pregunta9" value="true">
+                    <label for="respuesta9_1">Tiatordos y el Pierzu</label>
+                </p>
+                <p>
+                    <input type="radio" id= "respuesta9_2" name="pregunta9" value="false">
+                    <label for="respuesta9_2">La Torre de Santana y Torrecerredo</label>
+                </p>
+                <p>
+                    <input type="radio" id= "respuesta9_3" name="pregunta9" value="false">
+                    <label for="respuesta9_3">Torre Bermeja y Tiro Navarro</label>
+                </p>
+                <p>
+                    <input type="radio" id= "respuesta9_4" name="pregunta9" value="false">
+                    <label for="respuesta9_4">La Párdida y la Torre de Coello</label>
+                </p>
+                <p>
+                    <input type="radio" id= "respuesta9_5" name="pregunta9" value="false">
+                    <label for="respuesta9_5">Los Campanarios y Tiro del Oso</label>
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>¿Qué lago se puede ver haciendo la Ruta del Pico Pierzu?</legend>
+                <p>
+                    <input type="radio" id= "respuesta10_1" name="pregunta10" value="true">
+                    <label for="respuesta10_1">Lago d'Aranga</label>
+                </p>
+                <p>
+                    <input type="radio" id= "respuesta10_2" name="pregunta10" value="false">
+                    <label for="respuesta10_2">Lago Ercina</label>
+                </p>
+                <p>
+                    <input type="radio" id= "respuesta10_3" name="pregunta10" value="false">
+                    <label for="respuesta10_3">Lago Negro</label>
+                </p>
+                <p>
+                    <input type="radio" id= "respuesta10_4" name="pregunta10" value="false">
+                    <label for="respuesta10_4">Lago de Muniellos</label>
+                </p>
+                <p>
+                    <input type="radio" id= "respuesta10_5" name="pregunta10" value="false">
+                    <label for="respuesta10_5">Lago Enol</label>
+                </p>
+            </fieldset>
+            <input type="submit" value="Calcular nota" onclick="juego.calcularNota()">
+            <button type="button" onclick="juego.reiniciar()" disabled>Reiniciar</button>
+        </form>
+        <p>Una vez finalizado obtendrá su puntuación</p>
       </section>
    </main>
    <footer>
